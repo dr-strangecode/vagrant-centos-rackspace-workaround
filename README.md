@@ -26,7 +26,7 @@ workaround can be seen in [Pull Request 4](https://github.com/mitchellh/vagrant-
  - `cd vagrant-centos-rackspace-workaround`
  - `vagrant box add dummy https://github.com/mitchellh/vagrant-rackspace/raw/master/dummy.box`
  - edit `Vagrantfile` adding in your username and api key
- - `vagrant up --provider=rackspace`
+ - `vagrant up --provider=rackspace` for each machine. e.g. `vagrant up temp-centos-6-dfw --provider=rackspace`
  - use vagrant to ssh in to each machine. e.g. `vagrant ssh temp-centos-6-dfw`
  - `visudo`
  - comment out `Defaults    requiretty`
