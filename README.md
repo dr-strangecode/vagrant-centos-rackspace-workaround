@@ -34,6 +34,9 @@ workaround can be seen in [Pull Request 4](https://github.com/mitchellh/vagrant-
  - save file and logout of machine
  - from the control panel, create an image of that machine with a name like "vagrant-centos-6-dfw"
 
+Once images have been created, you can start using vagrant normally with those saved images. 
+Don't forget to remove the temporary machines.
+
 ## Error Details
 
 **Error:**
