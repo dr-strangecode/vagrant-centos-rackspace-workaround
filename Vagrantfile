@@ -15,7 +15,7 @@ Vagrant.configure("2") do |config|
       rs.api_key = ""
       rs.flavor = /512MB/
       rs.image = /CentOS 6.3/
-      rs.compute_url = 'https://dfw.servers.api.rackspacecloud.com/v2'
+      rs.rackspace_region = :dfw
       rs.server_name = 'temp-centos-6-dfw'
     end
   end
@@ -31,7 +31,7 @@ Vagrant.configure("2") do |config|
       rs.api_key = ""
       rs.flavor = /512MB/
       rs.image = /CentOS 6.3/
-      rs.compute_url = 'https://ord.servers.api.rackspacecloud.com/v2'
+      rs.rackspace_region = :ord
       rs.server_name = 'temp-centos-6-ord'
     end
   end
